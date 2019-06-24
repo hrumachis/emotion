@@ -13,12 +13,19 @@
             $results = array(
                 "success" => false
             );
-            
-            $fullName = HttpGETValue::get( 'fullName' ) or HttpPOSTValue::get( 'fullName' ); // string
-            $birthdate = HttpGETValue::get( 'birthdate' ) or HttpPOSTValue::get( 'birthdate' ); // date "Y-m-d"
-            $email = HttpGETValue::get( 'email' ) or HttpPOSTValue::get( 'email' ); // string
-            $message = htmlspecialchars( HttpGETValue::get( 'message' ) or HttpPOSTValue::get( 'message' ) ); // string
 
+            if ( HttpRequestType::isXML() ) {
+                $fullName = HttpGETValue::get( 'fullName' ); // string
+                $birthdate = HttpGETValue::get( 'birthdate' ); // date "Y-m-d"
+                $email = HttpGETValue::get( 'email' ); // string
+                $message = htmlspecialchars( HttpGETValue::get( 'message' ) ); // string
+            } else {
+                $fullName = HttpPOSTValue::get( 'fullName' ); // string
+                $birthdate = HttpPOSTValue::get( 'birthdate' ); // date "Y-m-d"
+                $email = HttpPOSTValue::get( 'email' ); // string
+                $message = htmlspecialchars( HttpPOSTValue::get( 'message' ) ); // string
+            }
+            
             /**
              * Validate full name
              */
