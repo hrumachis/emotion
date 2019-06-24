@@ -31,13 +31,13 @@ Table name: *messages*<br>
 **Used resources:**
 
      Backend
-     - PHP 7.2.4v
-     - MySQL 5.7.21v
-     - Apache 2.4.33v
+     - PHP 7.2.4
+     - MySQL 5.7.21
+     - Apache 2.4.33
 
 	 Frontend
 	 - JavaScript ES5
-	 - JQuery 3.4.1v
+	 - JQuery 3.4.1
 
 **Ideas for the future:**<br>
 Application has good starting structure and functionality foundation. Still there is areas a lot to improve.
