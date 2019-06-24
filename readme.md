@@ -1,7 +1,7 @@
-**Goal**
+**Goal**<br>
 Create functioning messaging board.
 
-**Project Hours**
+**Project Hours**<br>
 Project started June  14, 2019 and finished June 25, 2019 Total hours: **~32**
 
  - **2 hours** - Environment setup.
@@ -14,12 +14,12 @@ Project started June  14, 2019 and finished June 25, 2019 Total hours: **~32**
  - **4 hours** - Server side validators and rendering data.
  - **4 hours** - Finishing project, fixing.
 
-**Database structure**
-Database: *MySQL*
-Database name: *emotion*
-Table name: *messages*
+**Database structure**<br>
+Database: *MySQL*<br>
+Database name: *emotion*<br>
+Table name: *messages*<br>
 | nr. |Collumn name | Type | Collation |  Default | Extra |
-|--|--|--|--|--|--|
+|-----|-------------|--|--|--|--|
 | 1 | id | int(11) |  | _None_ | AUTO_INCREMENT |
 | 2 | fullName | varchar(255) | utf8_lithuanian_ci | _None_ |  |
 | 3 | email | varchar(255) | utf8_lithuanian_ci | _None_ |  |
@@ -38,8 +38,8 @@ Table name: *messages*
 	 - JavaScript ES5
 	 - JQuery 3.4.1v
 
-**Ideas for the future:**
+**Ideas for the future:**<br>
 Application has good starting structure and functionality foundation. Still there is areas a lot to improve.
 
-**Testing framework**
+**Testing framework**<br>
 The project provides its own proprietary testing, however, it's suitable for unit testing. No unit tests made.
