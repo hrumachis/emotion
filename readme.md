@@ -18,14 +18,15 @@ Project started June  14, 2019 and finished June 25, 2019 Total hours: **~32**
 Database: *MySQL*<br>
 Database name: *emotion*<br>
 Table name: *messages*<br>
-| nr. |Collumn name | Type | Collation |  Default | Extra |
-|-----|-------------|--|--|--|--|
-| 1 | id | int(11) |  | _None_ | AUTO_INCREMENT |
-| 2 | fullName | varchar(255) | utf8_lithuanian_ci | _None_ |  |
-| 3 | email | varchar(255) | utf8_lithuanian_ci | _None_ |  |
-| 4 | birthdate | varchar(255) | utf8_lithuanian_ci | _None_ |  |
-| 5 | message | text | utf8_lithuanian_ci | _None_ |  |
-| 6 | post_date | varchar(255) | utf8_lithuanian_ci | _None_ |  |
+
+| nr. |Collumn name | Type         | Collation          |  Default | Extra          |<br>
+|-----|-------------|--------------|--------------------|----------|----------------|<br>
+| 1   | id          | int(11)      |                    | _None_   | AUTO_INCREMENT |<br>
+| 2   | fullName    | varchar(255) | utf8_lithuanian_ci | _None_   |                |<br>
+| 3   | email       | varchar(255) | utf8_lithuanian_ci | _None_   |                |<br>
+| 4   | birthdate   | varchar(255) | utf8_lithuanian_ci | _None_   |                |<br>
+| 5   | message     | text         | utf8_lithuanian_ci | _None_   |                |<br>
+| 6   | post_date   | varchar(255) | utf8_lithuanian_ci | _None_   |                |<br>
 
 **Used resources:**
 
